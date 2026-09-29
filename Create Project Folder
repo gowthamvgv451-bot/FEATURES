@@ -1,0 +1,156 @@
+features-project/
+│
+├── index.html
+├── style.css
+└── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="features">
+    <h1>Our Features</h1>
+    <p class="subtitle">
+      Everything you need for a simple, fast, and powerful experience.
+    </p>
+
+    <div class="feature-container">
+
+      <div class="feature-card">
+        <div class="icon">⚡</div>
+        <h2>Fast Performance</h2>
+        <p>
+          Enjoy fast loading speeds and smooth performance across all devices.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">🔒</div>
+        <h2>Secure</h2>
+        <p>
+          Your data is protected with reliable and modern security features.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">📱</div>
+        <h2>Responsive</h2>
+        <p>
+          Our design works perfectly on phones, tablets, laptops, and desktops.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon">✨</div>
+        <h2>Easy to Use</h2>
+        <p>
+          A clean and simple interface makes everything easy to understand.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.features {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.features h1 {
+  font-size: 42px;
+  color: #1e3a8a;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.feature-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.feature-card {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.feature-card h2 {
+  font-size: 22px;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .feature-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .features {
+    padding: 60px 15px;
+  }
+
+  .features h1 {
+    font-size: 32px;
+  }
+
+  .feature-container {
+    grid-template-columns: 1fr;
+  }
+}
+// Features page loaded successfully
+console.log("Features project is running!");
+features-project
+│
+├── index.html
+├── style.css
+└── script.js
