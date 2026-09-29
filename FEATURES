@@ -1,0 +1,33 @@
+Features
+Easy to Use — Simple and intuitive interface designed for everyone.
+
+Fast Performance — Quick loading and smooth operation.
+
+Secure — Your information is protected with modern security practices.
+
+Responsive Design — Works seamlessly on mobile, tablet, and desktop devices.
+<section class="features">
+  <h2>Features</h2>
+
+  <div class="feature-container">
+    <div class="feature-card">
+      <h3>Easy to Use</h3>
+      <p>Simple and intuitive interface designed for everyone.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Fast Performance</h3>
+      <p>Quick loading and smooth operation.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Secure</h3>
+      <p>Your information is protected with modern security practices.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Responsive Design</h3>
+      <p>Works seamlessly on mobile, tablet, and desktop devices.</p>
+    </div>
+  </div>
+</section>
